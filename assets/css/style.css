@@ -1,0 +1,71 @@
+
+
+
+header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #eee;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    float: left;
+}
+
+/** Nav bar **/
+#about {
+    color: #eee;
+    float: right;
+}
+
+#portfolio {
+    color: #eee;
+    float: right;
+}
+
+#contact {
+    color: #eee;
+    float: right;
+}
+
+
+.container {
+    width: 960px;
+    height: 480px;
+    color: #777777;
+    background-color: #ffffff;
+    border-color: #ddd;
+    border-style: solid;
+    margin: auto;
+}
+
+body {
+
+}
+
+#mypicture {
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    line-height: 1.6;
+}
+
+/** this is good **/
+footer {
+    background-color: #666666;
+    color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 8px;
+    padding: 20px;
+    border-top: 8px solid #4aaaa5;
+    clear: both;
+}
