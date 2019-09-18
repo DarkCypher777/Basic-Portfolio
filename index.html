@@ -3,18 +3,39 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
+    <title>About Me</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="wallpaper" href="assets/images/wallpaper1.png">
 
 </head>
 
 <body>
-    <div class="name">
-        <header>Ben Diamond</header>
-    </div>    
+    <!-- need to get name and navbar on same line-->
+    <div class="name"></div>
+        <header>Ben Diamond</header>    
 
-    <!--change wallpaper to lighter style-->
+        <div class="navbar">
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+                    
+            li {
+                display: inline;
+            }
+
+        </style>
+                
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+                    
+        </div>
+
     <style>
     body {
         background-image: url(assets/images/wallpaper1.png);
@@ -27,9 +48,7 @@
 
         <hr>
 
-        <a id="border">
-
-        <!--need source to picture-->
+        <!--need source to picture - EDIT its done-->
         <img id="mypicture" src="assets/images/Profile.png" alt="Ben Diamond">
 
         <!--type my bio here-->
@@ -41,7 +60,7 @@
 
     </div>
 
-        <footer>Copyright@</footer>
+    <footer>Copyright@</footer>
 
 </body>
 
